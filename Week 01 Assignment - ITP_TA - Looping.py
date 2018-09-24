@@ -1,3 +1,5 @@
+# Triangle
+
 num = 5 #the total number of lines
 x = 1 #the first line to be run
 while x <= num: #do the process in limited loop

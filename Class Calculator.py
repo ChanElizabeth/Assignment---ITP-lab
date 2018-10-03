@@ -46,10 +46,10 @@ def main():
    cal = Calculator(a, b) #cal is the object for the class passing the two numbers as parameters to the class.
 
    #Using cal, the respective method is called according to the choice taken from the user
-   #and the respective result will be added to the stack
+   #and the respective result will be added to the list
    if user_input == "add":
       numlist.append(cal.addition())
-      del numlist[0] #delete the contain index 0 to replace it with the result of the calculation
+      del numlist[0] #delete the contain index 0 of the list to replace it with the result of the calculation
 
    elif user_input == "subtract":
       numlist.append(cal.subtraction())

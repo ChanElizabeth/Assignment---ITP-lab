@@ -37,8 +37,17 @@ class Cars:
 
 cars = Cars("PlateNum")
 
+def parkingLot():
+    for i in range(0, len(cars.getListCars())):
+        print("[{}]".format(cars.getListCars()[i].nPlate), end=", ")
+    if len(cars.getListCars()) == 0:
+        print("")
+    else:
+        print("are in the parking lot")
+        
 def main():
     while True:
+       parkinglot()
        print("Welcome to Parking Lot, What do you want to do: ")
        print("""    1. Go in the parking lot
     2. Go out the parking lot

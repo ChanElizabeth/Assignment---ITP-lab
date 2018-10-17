@@ -101,6 +101,8 @@ def getrevenue(gate): #method to get the revenue of the vehicle
 def main():
     while True:
        title()
+       print("Location of Toll gate: Meruya or Pondok Aren")
+       print("Category of vehicle: car, bus or vehicle")       
        userinput = input("Choose vehicle type: ").lower() #enter the vehicle type
        locinput = input("Choose location: ") #enter the location of the toll
        if locinput == "Meruya":
